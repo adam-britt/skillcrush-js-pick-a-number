@@ -13,3 +13,9 @@ document.addEventListener("keydown", function(e) {
     }
 });
 
+var clearButton = document.querySelector("button");
+document.addEventListener("click", function() {
+    one.innerText = "1";
+    two.innerText = "2";
+    three.innerText = "3";
+});
